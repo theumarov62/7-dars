@@ -220,6 +220,7 @@ li {
   opacity: 80%;
 }
 
+.btn:active,
 .log__in:active {
   opacity: 60%;
 }
