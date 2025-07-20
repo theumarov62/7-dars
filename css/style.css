@@ -212,13 +212,16 @@ li {
   list-style: none;
 }
 .btn:active,
-.header-item-link:active,
-.log__in:active {
+.header-item-link:active {
   opacity: 60%;
 }
 .btn:hover,
 .log__in:hover {
   opacity: 80%;
+}
+
+.log__in:active {
+  opacity: 60%;
 }
 
 .btn {
@@ -259,6 +262,7 @@ li {
   font-size: 15px;
   font-weight: 700;
 }
+
 .header-list {
   display: flex;
   gap: 30px;
@@ -462,16 +466,63 @@ li {
   letter-spacing: -0.25px;
   color: #fff;
 }
+
+.footer-title-link:active {
+  opacity: 60%;
+}
+
 .footer-link {
   color: #bfbfbf;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: -0.23px;
 }
+
+.footer-link:hover {
+  color: #2bd0d0;
+}
+
 .footer-socials {
   display: flex;
   gap: 24px;
 }
+
+.def-img path {
+  transition: 0.3s;
+}
+
+.facebook path {
+  fill: #fff;
+}
+
+.facebook:hover path {
+  fill: #2bd0d0;
+}
+
+.twitter path {
+  fill: #fff;
+}
+
+.twitter:hover path {
+  fill: #2bd0d0;
+}
+
+.pinterest path {
+  fill: #fff;
+}
+
+.pinterest:hover path {
+  fill: #2bd0d0;
+}
+
+.instagram path {
+  fill: #fff;
+}
+
+.instagram:hover path {
+  fill: #2bd0d0;
+}
+
 @media (max-width: 1240px) {
   .hero {
     background-size: 500px 450px;
