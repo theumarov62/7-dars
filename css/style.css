@@ -220,17 +220,7 @@ li {
 .log__in:hover {
   opacity: 80%;
 }
-.sign__up {
-  border: 2px solid #2bd0d0;
-}
-.sign__up:hover {
-  background-color: transparent;
-  color: #2bd0d0;
-  opacity: 80%;
-}
-.sign__up:active {
-  opacity: 60%;
-}
+
 .btn {
   display: inline-block;
   width: 197px;
@@ -265,8 +255,7 @@ li {
   font-size: 25px;
 }
 .header-item-link,
-.log__in,
-.sign__up {
+.log__in {
   font-size: 15px;
   font-weight: 700;
 }
@@ -289,6 +278,18 @@ li {
   color: #fff;
   background-color: #2bd0d0;
   border-radius: 28px;
+  font-size: 15px;
+  font-weight: 700;
+  border: 2px solid #2bd0d0;
+}
+
+.sign__up:hover {
+  background-color: transparent;
+  color: #2bd0d0;
+  opacity: 80%;
+}
+.sign__up:active {
+  opacity: 60%;
 }
 .hero {
   background-image: url(../images/working_with_computer.jpg);
